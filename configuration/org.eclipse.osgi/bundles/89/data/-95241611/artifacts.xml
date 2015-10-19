@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='update site: http://www.cs.umd.edu/~pugh/eclipse' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1251133152607'/>
+    <property name='eclipse.p2.force.threading' value='true'/>
+    <property name='site.checksum' value='4273414716'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='8'>
+    <artifact classifier='osgi.bundle' id='edu.umd.cs.eclipse.courseProjectManager' version='0.2.3'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.cs.umd.edu/~pugh/eclipse/plugins/edu.umd.cs.eclipse.courseProjectManager_0.2.3.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.cenqui.clover.eclipse' version='1.2.12'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.cs.umd.edu/~pugh/eclipse/features/com.cenqui.clover.eclipse_1.2.12.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='edu.umd.cs.eclipse.courseProjectManager' version='0.2.3'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.cs.umd.edu/~pugh/eclipse/features/edu.umd.cs.eclipse.courseProjectManager_0.2.3.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='edu.umd.cs.eclipse.courseProjectManager' version='0.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.cs.umd.edu/~pugh/eclipse/features/edu.umd.cs.eclipse.courseProjectManager_0.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='edu.umd.cs.eclipse.courseProjectManager' version='0.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.cs.umd.edu/~pugh/eclipse/plugins/edu.umd.cs.eclipse.courseProjectManager_0.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.cenqua.clover' version='1.2.11'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.cs.umd.edu/~pugh/eclipse/plugins/com.cenqua.clover_1.2.11.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.cenqui.clover.eclipse' version='1.2.11'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.cs.umd.edu/~pugh/eclipse/features/com.cenqui.clover.eclipse_1.2.11.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.cenqua.clover' version='1.2.12'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.cs.umd.edu/~pugh/eclipse/plugins/com.cenqua.clover_1.2.12.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

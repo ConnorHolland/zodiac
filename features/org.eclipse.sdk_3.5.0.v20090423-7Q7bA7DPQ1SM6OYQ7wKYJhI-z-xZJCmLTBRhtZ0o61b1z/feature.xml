@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.sdk"
+      label="%featureName"
+      version="3.5.0.v20090423-7Q7bA7DPQ1SM6OYQ7wKYJhI-z-xZJCmLTBRhtZ0o61b1z"
+      provider-name="%providerName"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/eclipse/updates/3.5"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/eclipse/updates/3.5"/>
+      <discovery label="%secondaryUpdateSiteName" url="http://download.eclipse.org/releases/galileo"/>
+   </url>
+
+   <includes
+         id="org.eclipse.platform"
+         version="3.5.0.v20090611a-9gEeG1HFtQcmRThO4O3aR_fqSMvJR2sJ"/>
+
+   <includes
+         id="org.eclipse.platform.source"
+         version="3.5.0.v20090611a-9gEeG1HFtQcmRThO4O3aR_fqSMvJR2sJ"/>
+
+   <includes
+         id="org.eclipse.cvs"
+         version="1.1.100.v20090514-7E79FEc9BJ99r9YFR6JOEF"/>
+
+   <includes
+         id="org.eclipse.cvs.source"
+         version="1.1.100.v20090514-7E79FEc9BJ99r9YFR6JOEF"/>
+
+   <includes
+         id="org.eclipse.jdt"
+         version="3.5.0.v20090527-2000-7r88FEeFJePyvYeA33DjZ_c1"/>
+
+   <includes
+         id="org.eclipse.jdt.source"
+         version="3.5.0.v20090527-2000-7r88FEeFJePyvYeA33DjZ_c1"/>
+
+   <includes
+         id="org.eclipse.pde"
+         version="3.5.0.v20090123-7Z7_F8NFE-z0VXhWiu-8Qb95"/>
+
+   <includes
+         id="org.eclipse.pde.source"
+         version="3.5.0.v20090123-7Z7_F8NFE-z0VXhWiu-8Qb95"/> 
+ 
+   <includes
+         id="org.eclipse.help"
+         version="1.1.0.v20090602-7e7eFAlFEx2XZoYqwI68e2F"/>
+         
+   <includes
+         id="org.eclipse.help.source"
+         version="1.1.0.v20090602-7e7eFAlFEx2XZoYqwI68e2F"/>
+ 
+   <plugin
+         id="org.eclipse.sdk"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v200906111540"/>
+
+</feature>

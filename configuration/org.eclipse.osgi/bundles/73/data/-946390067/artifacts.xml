@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\Users\nelson\Desktop\NewEclipse\eclipse\.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1251133080526'/>
+    <property name='org.eclipse.update.site.policy' value='USER-EXCLUDE'/>
+    <property name='org.eclipse.update.site.list' value=''/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='5'>
+    <artifact classifier='osgi.bundle' id='net.java.amateras.umleditor.java' version='1.3.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='61072'/>
+        <property name='download.size' value='61072'/>
+        <property name='download.md5' value='99a0f64d60bbc8b9ed8a56b2bd078575'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/nelson/Desktop/NewEclipse/eclipse/plugins/net.java.amateras.umleditor.java_1.3.1.jar'/>
+        <property name='file.name' value='C:\Users\nelson\Desktop\NewEclipse\eclipse\plugins\net.java.amateras.umleditor.java_1.3.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.draw2d' version='3.4.0.v20080529'>
+      <properties size='3'>
+        <property name='artifact.size' value='525549'/>
+        <property name='download.size' value='525549'/>
+        <property name='download.md5' value='14194eaae4f5cc3c5c08c2bb4c4c0228'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/nelson/Desktop/NewEclipse/eclipse/plugins/org.eclipse.draw2d_3.4.0.v20080529.jar'/>
+        <property name='file.name' value='C:\Users\nelson\Desktop\NewEclipse\eclipse\plugins\org.eclipse.draw2d_3.4.0.v20080529.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.java.amateras.xstream' version='1.3.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='1781496'/>
+        <property name='download.size' value='1781496'/>
+        <property name='download.md5' value='60c2a980e86ad96dacc876ca3a33496d'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/nelson/Desktop/NewEclipse/eclipse/plugins/net.java.amateras.xstream_1.3.1.jar'/>
+        <property name='file.name' value='C:\Users\nelson\Desktop\NewEclipse\eclipse\plugins\net.java.amateras.xstream_1.3.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.gef' version='3.4.0.v20080526'>
+      <properties size='3'>
+        <property name='artifact.size' value='818406'/>
+        <property name='download.size' value='818406'/>
+        <property name='download.md5' value='268ed0a7ac9159c3b8e4867331bb136e'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/nelson/Desktop/NewEclipse/eclipse/plugins/org.eclipse.gef_3.4.0.v20080526.jar'/>
+        <property name='file.name' value='C:\Users\nelson\Desktop\NewEclipse\eclipse\plugins\org.eclipse.gef_3.4.0.v20080526.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.java.amateras.umleditor' version='1.3.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='670273'/>
+        <property name='download.size' value='670273'/>
+        <property name='download.md5' value='43c0bad5762dbeeef4a8d37ec34714cc'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/nelson/Desktop/NewEclipse/eclipse/plugins/net.java.amateras.umleditor_1.3.1.jar'/>
+        <property name='file.name' value='C:\Users\nelson\Desktop\NewEclipse\eclipse\plugins\net.java.amateras.umleditor_1.3.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

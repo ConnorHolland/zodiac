@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="edu.umd.cs.eclipse.courseProjectManager"
+      label="Course Project Manager"
+      version="0.2.4"
+      provider-name="University of Maryland"
+      plugin="Branding Plug-in">
+   <install-handler/>
+
+  <description url="http://www.cs.umd.edu/users/jspacco/eclipse">
+<!--
+   <description url="http://www.cs.umd.edu/~pugh/IntroProgramming/eclipseUpdate">
+-->
+      The Course Project Manager provides both automatic
+CVS synchronization and a mechanism for course project submission.
+It is designed to be transparent, unobtrusive, and suitable for
+use in introductory programming courses.
+   </description>
+
+   <copyright>
+      Copyright (C) 2004-2005, University of Maryland
+All Rights Reserved
+   </copyright>
+
+   <license>
+      This software is available as a free binary for use in programming
+courses at the University of Maryland.  We make no guarantees
+as to its applicability or usefulness for any other purposes.
+   </license>
+
+   <url>
+      <update label="Maryland Eclipse Update Site" url="http://www.cs.umd.edu/~pugh/eclipse"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.team.core"/>
+      <import plugin="org.eclipse.team.cvs.core"/>
+      <import plugin="org.eclipse.debug.core"/>
+   </requires>
+
+   <plugin
+         id="edu.umd.cs.eclipse.courseProjectManager"
+         download-size="0"
+         install-size="0"
+         version="0.2.4"/>
+
+</feature>

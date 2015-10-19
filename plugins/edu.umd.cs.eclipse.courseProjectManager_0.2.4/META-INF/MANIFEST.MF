@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: 1.5.0_07-87 ("Apple Computer, Inc.")
+Bundle-ManifestVersion: 2
+Bundle-Name: Course Project Manager Plug-in
+Bundle-SymbolicName: edu.umd.cs.eclipse.courseProjectManager; singleto
+ n:=true
+Bundle-Version: 0.2.4
+Bundle-Activator: edu.umd.cs.eclipse.courseProjectManager.AutoCVSPlugi
+ n
+Bundle-Vendor: University of Maryland
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,or
+ g.eclipse.team.core,org.eclipse.team.cvs.core,org.eclipse.debug.core,
+ org.eclipse.ui.ide,org.eclipse.ui
+Eclipse-AutoStart: true
+Bundle-ClassPath: lib/commons-httpclient.jar,lib/commons-logging.jar,a
+ utocvs.jar
+Export-Package: META-INF,org.apache.commons.httpclient,org.apache.comm
+ ons.httpclient.auth,org.apache.commons.httpclient.cookie,org.apache.c
+ ommons.httpclient.methods,org.apache.commons.httpclient.methods.multi
+ part,org.apache.commons.httpclient.protocol,org.apache.commons.httpcl
+ ient.util,org.apache.commons.logging,org.apache.commons.logging.impl
+
